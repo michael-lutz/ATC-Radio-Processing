@@ -1,0 +1,425 @@
+2021-10-02 22:01:44.143 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 03 VISUAL APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:01:51.324 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 470 TURN RIGHT HEADING 090 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:01:52.885 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 09013, cabin: true
+2021-10-02 22:02:02.232 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 377 MAINTAIN 170 KNOTS TO LINDY CONTACT THE TOWER NOW 124.15, cabin: true
+2021-10-02 22:02:04.833 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 170, cabin: true
+2021-10-02 22:02:33.535 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 14 03 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:02:35.479 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DESCEND AND MAINTAIN 4000 AMERICAN 14, cabin: true
+2021-10-02 22:02:48.937 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 FARGO APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:03:03.343 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 478 TURN LEFT HEADING 150 MAINTAIN 3000 UNTIL ESTABLISHED ON THE LOCAL ON THE FINAL APPROACH COURSE CLEARED RNAV RUNWAY 18R APPROACH, cabin: true
+2021-10-02 22:03:03.954 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: BIZEX 641, cabin: true
+2021-10-02 22:03:19.017 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 14 038 DESCEND DOWN MAINTAIN 4000 AND REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:03:21.290 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: EXPEDITE DOWN TO 4 AND SLOW TO AH 1, cabin: true
+2021-10-02 22:03:30.818 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 120 AMERICAN 478, cabin: false
+2021-10-02 22:03:38.165 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 447 MAINTAIN 180 KNOTS TURN HEADING 09, cabin: true
+2021-10-02 22:04:15.233 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 14 03 TURN LEFT HEADING 090 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:04:17.111 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT 090 DOWN TO 3000 AMERICAN 4, cabin: true
+2021-10-02 22:04:24.534 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 470 CONTACT HOUSTON TOWER 124.15, cabin: true
+2021-10-02 22:04:24.745 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 15, cabin: false
+2021-10-02 22:04:30.162 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:04:31.274 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4004, cabin: false
+2021-10-02 22:04:40.331 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3014 03 AT 3000 REDUCE SPEED TO 1 7 0, cabin: false
+2021-10-02 22:04:44.306 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AT 3001 FM403, cabin: true
+2021-10-02 22:04:49.002 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 TURN RIGHT HEADING OF 110 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:04:49.747 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 110, cabin: false
+2021-10-02 22:05:32.813 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 14 031 MILES FROM JOLYN TURN RIGHT HEADING 150 MAINTAIN 3000 TILL ESTABLISHED ON APPROACH COURSE CLEARED RNAV RUNWAY 18R APPROACH, cabin: true
+2021-10-02 22:05:33.395 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000 TILL ESTABLISHED, cabin: true
+2021-10-02 22:05:34.395 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT APPROACH, cabin: true
+2021-10-02 22:05:41.146 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 AT 3000 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:05:43.488 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AH 30 AH 19, cabin: true
+2021-10-02 22:06:13.619 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 14 03 MAINTAIN 180 KNOTS UNTIL THE OUTER OK WELL BE TOWER 124.15, cabin: true
+2021-10-02 22:06:14.137 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 2028, cabin: true
+2021-10-02 22:06:16.049 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4 GOOD DAY, cabin: true
+2021-10-02 22:06:22.007 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DOING ENVOY 3746 TURN LEFT HEADING 150 INTERCEPT THE APPROACH COURSE 18 RIGHT, cabin: true
+2021-10-02 22:06:22.651 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 150, cabin: true
+2021-10-02 22:07:13.085 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 14 03 HEAVY TOWER 124.15, cabin: true
+2021-10-02 22:07:23.172 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 SIERRA CLEARED FOR THE R NAV RUNWAY 18 APPROACH MAINTAIN 180 KNOTS FOR LEFT, cabin: true
+2021-10-02 22:07:24.955 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY MAINTAIN 18, cabin: true
+2021-10-02 22:07:27.295 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND AH CLEARED RNAV 18, cabin: true
+2021-10-02 22:07:37.856 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 CONTACT MESQUITE TOWER 124.15, cabin: true
+2021-10-02 22:07:42.143 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1 MORE CONTROL ON, cabin: true
+2021-10-02 22:07:47.340 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3746 CONTACT EXECUTIVE TOWER 124.15, cabin: true
+2021-10-02 22:07:48.942 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 2015 FOR YAH, cabin: true
+2021-10-02 22:08:05.338 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY, cabin: true
+2021-10-02 22:08:07.189 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 46000, cabin: true
+2021-10-02 22:08:12.198 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: GOOD DAY, cabin: true
+2021-10-02 22:08:16.745 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FRONTIER 264 VISUAL APPROACH RUNWAY 18R, cabin: true
+2021-10-02 22:08:53.009 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FRONTIER 264 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:08:54.616 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DESCEND MAINTAIN 4000, cabin: true
+2021-10-02 22:09:52.167 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: WEST JET 264 TURN RIGHT HEADING 110 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:09:54.208 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 110 ON THE HEADING DOWN TO 3000, cabin: true
+2021-10-02 22:11:09.142 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: APPROACH 5064 AT 3000 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:11:10.903 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000 FOR 19, cabin: true
+2021-10-02 22:11:20.383 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FRONTIER 264 TURN RIGHT HEADING 150 INTERCEPT THE APPROACH FOR 18 RIGHT, cabin: true
+2021-10-02 22:11:21.725 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 152, cabin: false
+2021-10-02 22:11:28.559 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 465, cabin: true
+2021-10-02 22:11:35.664 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET CENTER 1 YOU HAVE YOUR REQUEST 28 RIGHT, cabin: true
+2021-10-02 22:11:38.358 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 718 RIGHT, cabin: false
+2021-10-02 22:12:09.707 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET CENTER 12 HEAVY DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:12:11.693 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:12:20.627 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: NORTHWEST 6264 2 MILES 4 CLIMB MAINTAIN 3000 UNTIL ESTABLISHED ON APPROACH COURSE CLEARED RNAV RUNWAY 10R APPROACH, cabin: true
+2021-10-02 22:12:21.971 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000 TILL ESTABLISHED, cabin: true
+2021-10-02 22:12:22.691 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CLEARED RNAV, cabin: false
+2021-10-02 22:12:29.203 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET CENTER 12 HEAVY TURN RIGHT HEADING 110, cabin: true
+2021-10-02 22:12:30.994 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT 210 AND 10, cabin: false
+2021-10-02 22:12:41.081 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FRONTIER 264 MAINTAIN 170 KNOTS OR GREATER TO THE ACTIVE YOULL BE TOWER 124.15, cabin: true
+2021-10-02 22:12:42.238 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 170 OR BETTER IS HEADING AND AH OVER TO THE TOWER, cabin: false
+2021-10-02 22:13:10.375 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET CENTER 12 HEAVY DESCEND AND MAINTAIN 3000 EXPECT YOUR DESCENT PLEASE, cabin: true
+2021-10-02 22:13:12.854 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DESCEND MAINTAIN 3000, cabin: false
+2021-10-02 22:13:56.560 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET CENTER 12 HEAVY AT 3000 REDUCE SPEED TO 1 7 0, cabin: true
+2021-10-02 22:13:56.880 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: UP TO 3000, cabin: false
+2021-10-02 22:13:58.379 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 170, cabin: true
+2021-10-02 22:14:18.727 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CENTER 12 HEAVY TURN LEFT HEADING 150 INTERCEPT THE APPROACH COURSE 18 RIGHT, cabin: true
+2021-10-02 22:14:19.218 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT TO 1 5 0, cabin: true
+2021-10-02 22:14:20.693 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CESSNA 54, cabin: true
+2021-10-02 22:14:21.955 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 090, cabin: true
+2021-10-02 22:14:49.001 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND CENTER 12 HEAVY THE HOLD MAINTAIN 3000, cabin: true
+2021-10-02 22:14:50.203 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RNAV, cabin: true
+2021-10-02 22:14:55.355 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: HAVE ECHO, cabin: true
+2021-10-02 22:14:59.568 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 034, cabin: true
+2021-10-02 22:15:03.952 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: YOUR SPEED UP, cabin: true
+2021-10-02 22:15:05.816 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: APPROACH, cabin: true
+2021-10-02 22:15:34.875 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CENTER 12 HEAVY CONTACT THE TOWER 124.15, cabin: true
+2021-10-02 22:15:36.098 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 24 15, cabin: true
+2021-10-02 22:17:22.111 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: US AIR 745 REGIONAL APPROACH THANK YOU, cabin: true
+2021-10-02 22:17:37.563 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1644 TURN LEFT HEADING 200 JUST THE LOCALIZER NORTHWEST CENTER, cabin: true
+2021-10-02 22:17:49.028 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 4036 FREQUENCY 190, cabin: true
+2021-10-02 22:18:23.421 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1644 3 MILES FROM BACK TO CROSS AT 6000 CLEARED ILS RUNWAY 144 IS AH MAINTAIN 100, cabin: true
+2021-10-02 22:18:38.211 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 652109 REGIONAL APPROACH THANK YOU 1 BOSTON CENTER, cabin: true
+2021-10-02 22:19:10.800 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 27, cabin: true
+2021-10-02 22:19:15.256 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: TURN RIGHT 35 DIRECT THE LOCALIZER RUNWAY 17 CENTER, cabin: true
+2021-10-02 22:19:22.241 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FEDEX 1745 WITH YOU SPEED TO 1 9 0, cabin: true
+2021-10-02 22:19:33.274 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1644 MAINTAIN 170 KNOTS OR GREATER TILL JUST CONTACT YOU FOR THE TOWER NOW 126.5, cabin: true
+2021-10-02 22:19:47.162 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2067 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:19:55.487 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CAP FLIGHT 1625 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:19:58.484 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 27, cabin: true
+2021-10-02 22:20:03.429 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4000 CLEARED ILS, cabin: true
+2021-10-02 22:21:37.143 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3698 VISUAL APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:21:53.855 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FOR DEPARTURE RADAR, cabin: true
+2021-10-02 22:21:58.872 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1214 VISUAL APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:22:13.885 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 2414 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:22:15.064 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND 4000, cabin: true
+2021-10-02 22:23:07.671 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 414, cabin: true
+2021-10-02 22:23:08.994 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SPEED, cabin: true
+2021-10-02 22:23:14.831 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY 190 WEST AT 4000 DOWN TO 3 THOU, cabin: true
+2021-10-02 22:23:18.865 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:23:20.582 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 544, cabin: true
+2021-10-02 22:24:42.054 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698 AT 4000 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:24:43.466 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 417, cabin: true
+2021-10-02 22:24:50.286 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FEDEX 3193 AT OR BELOW 2000 DESCENDING 6000, cabin: true
+2021-10-02 22:24:52.645 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 821 XRAY RUNWAY ON YOUR RIGHT, cabin: true
+2021-10-02 22:25:13.132 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 414 TURN RIGHT HEADING 150, cabin: true
+2021-10-02 22:25:14.143 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 48, cabin: true
+2021-10-02 22:25:17.067 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: HEADING 150 AT 5 3 4, cabin: true
+2021-10-02 22:25:36.191 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 414 AH BEECH MAINTAIN 3000 TILL ESTABLISHED ON APPROACH COURSE CLEARED RNAV RUNWAY 18, cabin: true
+2021-10-02 22:25:37.993 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY 2000 TILL TUFFO 0 JOIN 18 RIGHT, cabin: true
+2021-10-02 22:25:41.121 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 64, cabin: true
+2021-10-02 22:25:45.821 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2649 RIGHT APPROACH, cabin: true
+2021-10-02 22:25:56.303 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 414 MAINTAIN 17, cabin: true
+2021-10-02 22:25:59.265 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: YOUR RADAR, cabin: true
+2021-10-02 22:26:10.504 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698 TURN RIGHT HEADING OF 090 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:26:29.363 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2649 DESCEND AND MAINTAIN 4000 EXPECT DESCENT DOWN WIND, cabin: true
+2021-10-02 22:26:40.189 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698 AT 3000 REDUCE SPEED TO 1 7 0, cabin: true
+2021-10-02 22:27:21.326 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698 TURN RIGHT HEADING 150, cabin: true
+2021-10-02 22:27:22.343 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SIOUX 418 RIGHT, cabin: true
+2021-10-02 22:27:28.656 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2649 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:27:29.026 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET SPEED, cabin: true
+2021-10-02 22:27:49.683 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 4193 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:27:51.300 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: XOJET 74, cabin: true
+2021-10-02 22:27:52.707 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: EXPECT 4000, cabin: true
+2021-10-02 22:27:55.217 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698, cabin: true
+2021-10-02 22:27:58.073 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AH JUST MAINTAIN 3000, cabin: true
+2021-10-02 22:27:59.111 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CLEARED RNAV, cabin: true
+2021-10-02 22:28:00.194 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT APPROACH, cabin: true
+2021-10-02 22:28:11.384 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 426 VISUAL APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:28:17.691 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 634, cabin: true
+2021-10-02 22:28:21.991 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1034 VISUAL APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:28:25.264 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 698 MAINTAIN 1, cabin: true
+2021-10-02 22:28:27.557 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CONTACT TOWER, cabin: true
+2021-10-02 22:28:37.229 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2649, cabin: true
+2021-10-02 22:28:39.122 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: WIND 150 INTERCEPT, cabin: true
+2021-10-02 22:28:40.357 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ALL RIGHT, cabin: true
+2021-10-02 22:28:41.666 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 15, cabin: true
+2021-10-02 22:29:06.880 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 44000, cabin: true
+2021-10-02 22:29:10.119 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND 1484 TOWER 124.15, cabin: true
+2021-10-02 22:29:18.827 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2649 BE COLD MAINTAIN 3000 TILL ESTABLISHED ON APPROACH COURSE CLEARED RNAV RUNWAY 18, cabin: true
+2021-10-02 22:29:23.104 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: YOU YOU GET THAT TURN RIGHT, cabin: true
+2021-10-02 22:29:32.259 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2193 DESCEND AND MAINTAIN 3000 TURN RIGHT HEADING 090, cabin: true
+2021-10-02 22:29:33.866 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000 9, cabin: true
+2021-10-02 22:29:37.450 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 426, cabin: true
+2021-10-02 22:29:38.843 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4000, cabin: true
+2021-10-02 22:29:40.322 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND MAINTAIN 4000, cabin: true
+2021-10-02 22:29:51.451 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2193 AT 3000, cabin: true
+2021-10-02 22:29:52.828 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SPEED TO 1 9 0, cabin: true
+2021-10-02 22:29:54.837 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 193000, cabin: true
+2021-10-02 22:29:58.813 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4649 YOURE CLEARED FOR THE, cabin: true
+2021-10-02 22:30:00.927 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 20, cabin: true
+2021-10-02 22:30:11.225 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 426 AT 4000 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:30:12.427 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4000, cabin: true
+2021-10-02 22:30:16.545 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2193, cabin: true
+2021-10-02 22:30:17.361 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 31 5, cabin: true
+2021-10-02 22:30:23.584 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1507 APPROACH FOR 18 RIGHT RIGHT, cabin: true
+2021-10-02 22:30:26.812 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1034 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:30:31.895 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2649 CONTACT THE TOWER 1, cabin: true
+2021-10-02 22:30:32.260 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 115, cabin: true
+2021-10-02 22:30:33.845 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 9476, cabin: true
+2021-10-02 22:30:38.677 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 393, cabin: true
+2021-10-02 22:30:40.639 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 3000, cabin: true
+2021-10-02 22:30:46.774 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 4Q, cabin: true
+2021-10-02 22:30:48.293 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CLEARED FOR TAKEOFF, cabin: true
+2021-10-02 22:31:01.517 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 426 TURN RIGHT HEADING 150, cabin: true
+2021-10-02 22:31:03.726 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 418 RIGHT MAINTAIN, cabin: true
+2021-10-02 22:31:06.238 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 05 RIGHT, cabin: true
+2021-10-02 22:31:31.245 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3738 REPORT 18 RIGHT, cabin: true
+2021-10-02 22:31:35.481 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2193 YOU DO HAVE TOWER, cabin: true
+2021-10-02 22:31:38.556 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3460, cabin: true
+2021-10-02 22:31:39.697 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 66, cabin: true
+2021-10-02 22:31:46.630 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 426 3 MILES FROM FILED MAINTAIN 3000 TILL ESTABLISHED ON APPROACH, cabin: true
+2021-10-02 22:31:48.459 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CLEARED RNAV RUNWAY 18R APPROACH, cabin: true
+2021-10-02 22:31:52.461 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: THANK YOU 2000 CLEARED AH, cabin: true
+2021-10-02 22:31:52.752 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 18 RIGHT, cabin: true
+2021-10-02 22:31:53.761 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: LOOKING, cabin: true
+2021-10-02 22:32:14.349 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: LEFT TO 1 7 0, cabin: true
+2021-10-02 22:32:15.455 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RUNWAY 18R, cabin: true
+2021-10-02 22:32:24.160 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3426 APPEARS TO BE TURNING EAST BOUND AH TURN RIGHT HEADING 19, cabin: true
+2021-10-02 22:32:26.509 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: JET CENTER AH RIGHT NOW, cabin: true
+2021-10-02 22:32:38.548 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 426 HEADING 190, cabin: true
+2021-10-02 22:32:39.809 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000, cabin: true
+2021-10-02 22:32:41.725 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RNAV RUNWAY 18R, cabin: true
+2021-10-02 22:32:42.887 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 180, cabin: true
+2021-10-02 22:32:58.296 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1034 TURN RIGHT, cabin: true
+2021-10-02 22:33:00.084 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 3, cabin: true
+2021-10-02 22:33:02.408 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 43, cabin: true
+2021-10-02 22:33:12.923 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2193, cabin: true
+2021-10-02 22:33:20.352 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 426 MAINTAIN 170 KNOTS TO LAND, cabin: true
+2021-10-02 22:33:23.245 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 150 KNOTS ON HEADING THERE, cabin: true
+2021-10-02 22:33:26.501 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1034 AT 3000, cabin: true
+2021-10-02 22:33:27.920 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SPEED 170, cabin: true
+2021-10-02 22:33:34.798 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 170 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:33:43.582 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1038 AT 4, cabin: true
+2021-10-02 22:33:46.480 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: REDUCE SPEED TO 1 9 0 FLY HEADING 1, cabin: true
+2021-10-02 22:33:54.919 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 34 TURN LEFT HEADING 150 9, cabin: true
+2021-10-02 22:33:56.159 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 617, cabin: true
+2021-10-02 22:34:02.321 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: BIZEX 420, cabin: true
+2021-10-02 22:34:04.899 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CENTER 124.15, cabin: true
+2021-10-02 22:34:06.007 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 24 15, cabin: true
+2021-10-02 22:34:07.320 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 100, cabin: true
+2021-10-02 22:34:21.675 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1034 BE A FULL MAINTAIN 3000 TILL 7, cabin: true
+2021-10-02 22:34:21.987 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CLEARED RNAV, cabin: true
+2021-10-02 22:34:23.231 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 18 APPROACH, cabin: true
+2021-10-02 22:34:46.896 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 738 AH 0 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:34:53.347 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: GOLF, cabin: true
+2021-10-02 22:34:55.826 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1595, cabin: true
+2021-10-02 22:34:56.272 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 6 RIGHT, cabin: true
+2021-10-02 22:35:12.630 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 738 TURN LEFT HEADING 150 0, cabin: true
+2021-10-02 22:35:14.001 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CIRRUS 18 RIGHT, cabin: true
+2021-10-02 22:35:15.730 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 291, cabin: true
+2021-10-02 22:35:32.963 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3723 RIGHT APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:35:39.374 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1034 CONTACT THE TOWER 124.15, cabin: true
+2021-10-02 22:35:40.683 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1156, cabin: true
+2021-10-02 22:35:44.635 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1064, cabin: true
+2021-10-02 22:35:46.210 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY 3000 TILL ESTABLISHED, cabin: true
+2021-10-02 22:35:47.757 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RUNWAY, cabin: true
+2021-10-02 22:36:27.501 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: PILATUS 170 DESCEND AND MAINTAIN 3000 TURN RIGHT, cabin: true
+2021-10-02 22:36:27.834 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 090, cabin: true
+2021-10-02 22:36:35.017 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3743, cabin: true
+2021-10-02 22:36:36.252 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4000, cabin: true
+2021-10-02 22:36:37.787 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SIOUX 64000, cabin: true
+2021-10-02 22:36:42.187 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1038 MAINTAIN 170 KNOTS, cabin: true
+2021-10-02 22:36:43.955 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: TOWER 12, cabin: true
+2021-10-02 22:36:44.890 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 115, cabin: true
+2021-10-02 22:36:49.478 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1595, cabin: true
+2021-10-02 22:37:05.267 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3743 TURN RIGHT HEADING OF 110, cabin: true
+2021-10-02 22:37:06.698 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT TURN HEADING 110, cabin: true
+2021-10-02 22:37:26.693 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: LEFT TO 1 7 0 TURN RIGHT HEADING 150, cabin: true
+2021-10-02 22:37:35.645 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 640, cabin: true
+2021-10-02 22:37:45.593 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: LEFT 1703 MILES CORRECTION 2 MILE FINAL CLIMB MAINTAIN 30, cabin: true
+2021-10-02 22:38:02.257 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3743 DESCEND AND MAINTAIN 3000 AND REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:38:03.691 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000 SPEED 190, cabin: true
+2021-10-02 22:38:07.665 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 70, cabin: true
+2021-10-02 22:38:12.065 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CONTACT THE TOWER 124.15, cabin: true
+2021-10-02 22:38:23.094 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: HECTOR 1595 AT 4000 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:38:24.157 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4000, cabin: true
+2021-10-02 22:38:25.835 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 16, cabin: true
+2021-10-02 22:38:38.221 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3743 TURN RIGHT HEADING 150 INTERCEPT THE, cabin: true
+2021-10-02 22:38:38.582 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 420 RIGHT, cabin: true
+2021-10-02 22:38:40.883 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 250, cabin: true
+2021-10-02 22:38:56.802 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3743 GOING REDUCE SPEED 17, cabin: true
+2021-10-02 22:38:58.342 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ALL RIGHT 7170, cabin: true
+2021-10-02 22:39:20.353 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 3743 3 MILES FROM YOU CLIMB MAINTAIN 3000 7, cabin: true
+2021-10-02 22:39:21.703 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CLEARED RNAV RUNWAY 18R, cabin: true
+2021-10-02 22:39:22.727 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND 17, cabin: true
+2021-10-02 22:39:29.359 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 0 UNTIL 93000 EXPEDITE HERE FOR THE RNAV 18, cabin: true
+2021-10-02 22:39:31.030 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 01, cabin: true
+2021-10-02 22:39:32.581 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SIOUX 60, cabin: true
+2021-10-02 22:39:36.322 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ARCHER 415, cabin: true
+2021-10-02 22:39:47.646 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1595 TURN RIGHT HEADING 09, cabin: true
+2021-10-02 22:39:48.829 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 3000, cabin: true
+2021-10-02 22:39:49.725 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 09, cabin: true
+2021-10-02 22:39:54.273 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND BACK TO 1 7 0, cabin: true
+2021-10-02 22:40:53.177 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1595 TURN RIGHT HEADING 150 INTERCEPT THE APPROACH COURSE 18 RIGHT, cabin: true
+2021-10-02 22:40:54.679 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 015, cabin: true
+2021-10-02 22:40:55.871 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MORNING, cabin: true
+2021-10-02 22:41:07.089 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 0.4, cabin: true
+2021-10-02 22:41:08.276 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: LEFT CHARLIE, cabin: true
+2021-10-02 22:41:11.204 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 440, cabin: true
+2021-10-02 22:41:12.442 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 60 APPROACH, cabin: true
+2021-10-02 22:41:20.632 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FEDEX 1595 1 MILE CLIMB MAINTAIN 3000 TILL ESTABLISHED, cabin: true
+2021-10-02 22:41:22.338 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4 CLEARED RNAV RUNWAY 18R APPROACH, cabin: true
+2021-10-02 22:41:23.746 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: POINT 70 KNOTS, cabin: true
+2021-10-02 22:41:41.447 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AIR SHUTTLE 5975 REQUEST 18 RIGHT, cabin: true
+2021-10-02 22:41:47.253 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1595 CONTACT YOU HAVE MIKE TOWER 124.15, cabin: true
+2021-10-02 22:41:48.380 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 44 6, cabin: true
+2021-10-02 22:42:47.398 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 4163 TURN 5 DEGREES LEFT, cabin: true
+2021-10-02 22:42:48.916 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 5 DEGREES LEFT ENVOY 46, cabin: true
+2021-10-02 22:42:53.092 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: UNITED 734 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:43:24.134 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 4163 DESCEND AND MAINTAIN 5, cabin: true
+2021-10-02 22:43:26.563 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 5000, cabin: true
+2021-10-02 22:43:32.463 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AIR SHUTTLE 5975 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:44:06.249 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 59, cabin: true
+2021-10-02 22:44:09.031 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AT 3000 REDUCE SPEED TO 1, cabin: true
+2021-10-02 22:44:15.397 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 63 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:44:24.076 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2550, cabin: true
+2021-10-02 22:44:25.768 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 43, cabin: true
+2021-10-02 22:44:33.245 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SOUTHWEST 35 028.5, cabin: true
+2021-10-02 22:44:38.478 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 35 02 VISUAL APPROACH 18, cabin: true
+2021-10-02 22:44:39.844 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: RIGHT, cabin: true
+2021-10-02 22:44:43.242 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY, cabin: true
+2021-10-02 22:45:13.250 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AIR SHUTTLE 5955 TURN RIGHT HEADING 150, cabin: true
+2021-10-02 22:45:15.762 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ROGER RUNWAY 18R DESCEND AND MAINTAIN 2 THOU, cabin: true
+2021-10-02 22:45:25.366 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2580 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 22:45:29.523 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 41 6, cabin: true
+2021-10-02 22:45:30.881 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: TURN LEFT HEADING 09, cabin: true
+2021-10-02 22:45:32.138 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 3, cabin: true
+2021-10-02 22:45:33.153 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: BIZEX, cabin: true
+2021-10-02 22:45:36.470 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 59, cabin: true
+2021-10-02 22:45:38.802 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CITATION MIKE, cabin: true
+2021-10-02 22:45:43.751 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FOR 2004 FULL SERVICE ON APPROACH COURSE CLEARED RNAV RUNWAY 18L, cabin: true
+2021-10-02 22:45:45.786 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND MAINTAIN 170 MINUTES, cabin: true
+2021-10-02 22:45:46.328 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: PAPA, cabin: true
+2021-10-02 22:46:13.330 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2580 TURN RIGHT HEADING 110, cabin: true
+2021-10-02 22:46:30.592 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 35 02 FLY HEADING 350, cabin: true
+2021-10-02 22:46:31.725 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 350, cabin: true
+2021-10-02 22:46:36.662 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 4163 TURN LEFT HEADING 150, cabin: true
+2021-10-02 22:46:39.100 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: PAPA 420 RIGHT HEADING 16, cabin: true
+2021-10-02 22:46:45.783 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2580 DESCEND AND MAINTAIN 3000 THEN REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:46:50.418 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 35 02 DESCEND AND MAINTAIN, cabin: true
+2021-10-02 22:46:57.130 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 63 1 MILES CLIMB MAINTAIN 3 THOU, cabin: true
+2021-10-02 22:47:00.361 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: WERE CLEARED RNAV RUNWAY 18R APPROACH, cabin: true
+2021-10-02 22:47:02.573 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 0 VISUAL APPROACH 18 RIGHT, cabin: true
+2021-10-02 22:47:06.950 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 470 TURN RIGHT, cabin: true
+2021-10-02 22:47:11.308 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND MAINTAIN 4000 PLAN ON THE LOCALIZER CLEARED ILS RUNWAY 1, cabin: true
+2021-10-02 22:47:11.698 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ROGER, cabin: true
+2021-10-02 22:47:32.610 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 639 DESCEND AND MAINTAIN 4000 TURN 10 DEGREES, cabin: true
+2021-10-02 22:47:53.048 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ENVOY 39 0 DESCEND AND MAINTAIN 170, cabin: true
+2021-10-02 22:47:55.499 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY CONTACT, cabin: true
+2021-10-02 22:48:33.258 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ALPINE 1742 DESCEND AND MAINTAIN 3000, cabin: true
+2021-10-02 22:49:12.448 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND 769 5040, cabin: true
+2021-10-02 22:49:54.617 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 338, cabin: true
+2021-10-02 22:49:59.907 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 3000 TILL ESTABLISHED LOCALIZER CLEARED ILS 21, cabin: true
+2021-10-02 22:50:00.414 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 1, cabin: true
+2021-10-02 22:50:01.639 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY, cabin: true
+2021-10-02 22:50:44.945 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AIR CANADA 160 HEAVY REGIONAL APPROACH RUNWAY 18R, cabin: true
+2021-10-02 22:51:12.343 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 22 CONTACT YOU HAVE ROMEO TOWER NOW 126 POINT, cabin: true
+2021-10-02 22:51:12.649 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 66, cabin: true
+2021-10-02 22:51:57.271 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4265, cabin: true
+2021-10-02 22:51:57.955 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 200, cabin: true
+2021-10-02 22:53:28.260 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 60 HEAVY TURN RIGHT HEADING 150 AND JOIN THE AH FINAL DIRECT 4, cabin: true
+2021-10-02 22:54:19.213 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 25 FARGO 160 YOURE 5 MILES, cabin: true
+2021-10-02 22:54:23.602 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: THANK YOU AT 5000 CLEARED RNAV, cabin: true
+2021-10-02 22:54:24.209 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 28 RIGHT, cabin: true
+2021-10-02 22:55:09.700 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CARDINAL 160 MAINTAIN 170, cabin: true
+2021-10-02 22:55:14.026 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY CONTACTING TOWER 124.5, cabin: true
+2021-10-02 22:55:15.224 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY, cabin: true
+2021-10-02 22:56:56.999 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 3867 REGIONAL APPROACH RUNWAY 36, cabin: true
+2021-10-02 22:57:28.573 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 1360 REGIONAL APPROACH 1279 FLY HEADING 110, cabin: true
+2021-10-02 22:57:58.359 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 3067 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 22:58:22.377 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1022 REGIONAL APPROACH THANK YOU WANT LOWER SEVENTIES, cabin: true
+2021-10-02 22:58:47.034 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1022 REDUCE SPEED TO 2 1 0, cabin: true
+2021-10-02 22:59:36.728 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 1346 DEGREES RIGHT, cabin: true
+2021-10-02 22:59:57.245 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 3670 CONTACT GRAY, cabin: true
+2021-10-02 23:00:11.079 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2425 REGIONAL APPROACH NORTHWEST CENTER, cabin: true
+2021-10-02 23:00:17.125 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 1330 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:00:49.091 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 6030 DESCEND AND MAINTAIN 3, cabin: true
+2021-10-02 23:01:15.046 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 3067 AND TURN RIGHT HEADING 090 DESCEND AND MAINTAIN 5000, cabin: true
+2021-10-02 23:01:47.797 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1022 DESCEND AND MAINTAIN 4000 TURN RIGHT, cabin: true
+2021-10-02 23:02:21.063 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 1630 TURN RIGHT HEADING 150 5006 23000 TILL ESTABLISHED LOCALIZER CLEARED ILS RUNWAY 171, cabin: true
+2021-10-02 23:02:33.293 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 3067 DESCEND AND MAINTAIN 3000 TURN RIGHT HEADING 150 JOIN THE LOCALIZER 1279, cabin: true
+2021-10-02 23:02:41.490 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1022 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 23:02:52.672 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 1630 MAINTAIN 170 KNOTS OR GREATER UNTIL 50 CONTACT HOUSTON TOWER NOW, cabin: true
+2021-10-02 23:02:53.078 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 155, cabin: true
+2021-10-02 23:03:04.665 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1780 REGIONAL 33, cabin: true
+2021-10-02 23:03:09.183 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 4425 YOU, cabin: true
+2021-10-02 23:03:10.418 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 10, cabin: true
+2021-10-02 23:03:26.078 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 22 DESCEND AND MAINTAIN 3000 TURN RIGHT HEADING 150 JUST LOCALIZER AND 177, cabin: true
+2021-10-02 23:03:36.829 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 3667 YOUR OVER KEY CLEARED ILS RUNWAY 177, cabin: true
+2021-10-02 23:03:41.290 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2425 DESCEND AND MAIN, cabin: true
+2021-10-02 23:03:42.462 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 4000, cabin: true
+2021-10-02 23:04:04.833 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2445 TURN RIGHT HEADING 110, cabin: true
+2021-10-02 23:04:17.134 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 22 3 MILES FROM CRAFT HEADING 3000 CLEARED ILS RUNWAY 170, cabin: true
+2021-10-02 23:04:17.435 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ROGER, cabin: true
+2021-10-02 23:04:32.618 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: SKYWEST 36 DESCEND MAINTAIN 170 KNOTS TO RIPIT CONTACT THE TOWER NOW 126.5, cabin: true
+2021-10-02 23:04:39.037 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2425 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 23:04:52.603 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 1369 7 HEADING 150 JOIN THE LOCALIZER AND TRACK OVER CENTER, cabin: true
+2021-10-02 23:04:52.828 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: THANK YOU, cabin: true
+2021-10-02 23:05:02.379 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1720 TURN RIGHT HEADING 140 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:05:08.876 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 10.2 MAINTAIN 170 KNOTS 22, cabin: true
+2021-10-02 23:05:11.533 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: OKAY FOR THE TOWER NOW 126.5, cabin: true
+2021-10-02 23:05:44.841 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2425 3 MILES FROM 6, cabin: true
+2021-10-02 23:05:47.721 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND ABOUT TO 3000 CLEARED ILS RUNWAY 1, cabin: true
+2021-10-02 23:05:49.352 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 90, cabin: true
+2021-10-02 23:06:01.837 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 78 REDUCE SPEED TO 1 9 0, cabin: true
+2021-10-02 23:06:19.972 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 457 REGIONAL APPROACH RUNWAY 170, cabin: true
+2021-10-02 23:06:40.342 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: HEAVY, cabin: true
+2021-10-02 23:06:42.737 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: WIND 150 JOIN THE LOCALIZER, cabin: true
+2021-10-02 23:06:44.331 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: MAINTAIN 3000, cabin: true
+2021-10-02 23:07:07.573 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FLIGHT 2136 TURN TO 1 0 0, cabin: true
+2021-10-02 23:07:18.694 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: WATERSKI 4425 MAINTAIN 170 KNOTS 65 CONTACT YOU HAVE THE TOWER NOW 126.5, cabin: true
+2021-10-02 23:07:25.631 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1783, cabin: true
+2021-10-02 23:07:28.643 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: TRAFFIC AT 3000 CLEARED, cabin: true
+2021-10-02 23:07:30.534 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 190, cabin: true
+2021-10-02 23:08:47.644 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: FEDEX 2136 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:08:57.626 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 17 06170 KNOTS YOU YOU CAN TAXI OUT TO THE TOWER NOW 126.5, cabin: true
+2021-10-02 23:09:33.006 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ARCHER 251 REGIONAL APPROACH ROGER, cabin: true
+2021-10-02 23:09:50.200 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2136 TURN 36508090, cabin: true
+2021-10-02 23:09:50.569 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 63, cabin: true
+2021-10-02 23:10:21.355 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1035 REGIONAL APPROACH ROGER, cabin: true
+2021-10-02 23:10:28.223 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 2166 SPEED TO 1 9 0, cabin: true
+2021-10-02 23:11:01.898 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1661 MAINTAIN FLIGHT, cabin: true
+2021-10-02 23:11:08.163 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CARE 21 06, cabin: true
+2021-10-02 23:11:10.063 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000, cabin: true
+2021-10-02 23:11:12.982 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DEPARTURE CLEARED TO 1 71 7 CENTER, cabin: true
+2021-10-02 23:11:23.663 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CARE 2190 REDUCE SPEED TO 1, cabin: true
+2021-10-02 23:12:04.848 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: ALL RIGHT 2136 470, cabin: true
+2021-10-02 23:12:06.794 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: TAXI 42 1, cabin: true
+2021-10-02 23:12:08.324 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: POINT 6, cabin: true
+2021-10-02 23:12:19.806 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1351 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:12:35.638 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 965 7 MAINTAIN 7000, cabin: true
+2021-10-02 23:13:11.310 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1361 DESCEND MAINTAIN 3000 REDUCE SPEED TO 1 9 0 0, cabin: true
+2021-10-02 23:13:20.221 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 539 TURN 10 DEGREES LEFT, cabin: true
+2021-10-02 23:13:49.759 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1351 TURN RIGHT HEADING 160 LOCALIZER RUNWAY 170, cabin: true
+2021-10-02 23:13:56.570 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 96 5 CLIMB MAINTAIN 6000, cabin: true
+2021-10-02 23:14:19.538 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1361 1 MILES AND MAINTAIN 3000 TILL ESTABLISHED LOCALIZER CLEARED ILS RUNWAY, cabin: true
+2021-10-02 23:14:19.860 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AND APPROACH, cabin: true
+2021-10-02 23:14:34.214 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 975, cabin: true
+2021-10-02 23:14:36.130 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 190 TURN LEFT, cabin: true
+2021-10-02 23:14:55.922 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 1361 170 KNOTS, cabin: true
+2021-10-02 23:14:57.736 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CONTACT TOWER 1, cabin: true
+2021-10-02 23:14:58.449 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: POINT 55, cabin: true
+2021-10-02 23:15:11.332 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: CIRRUS 935 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:15:25.688 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN AFTER DEPARTURE MAINTAIN 3000 NOW, cabin: true
+2021-10-02 23:15:48.339 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 935 FLY HEADING 200 10 MILES FROM 6, cabin: true
+2021-10-02 23:15:50.492 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 3000 TILL TUFFO 40 CLEARED ILS RUNWAY, cabin: true
+2021-10-02 23:16:10.598 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: BIZEX 563 AFFIRMATIVE, cabin: true
+2021-10-02 23:17:11.456 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 505 MAINTAIN 170 KNOTS TODAY CONTACT YOU HAVE PAPA, cabin: true
+2021-10-02 23:17:12.256 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 6.55 GOOD DAY, cabin: true
+2021-10-02 23:17:40.539 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 9963 TURN 10 DEGREES RIGHT, cabin: true
+2021-10-02 23:18:11.958 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 963 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:19:06.230 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: GROUND UNITED 63 DESCEND AND MAINTAIN YOUR AT 3000 TURN RIGHT HEADING 150 JOIN THE LOCALIZER RUNWAY 1, cabin: true
+2021-10-02 23:19:12.610 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 40 AND YOU CONTACT TOWER, cabin: true
+2021-10-02 23:19:13.881 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: 2.55 GOOD DAY, cabin: true
+2021-10-02 23:19:42.433 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 163 TURN 10 DEGREES RIGHT, cabin: true
+2021-10-02 23:20:13.886 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: AMERICAN 996 DESCEND AND MAINTAIN 4000, cabin: true
+2021-10-02 23:21:08.155 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 9963 DESCEND AND MAINTAIN 3000 TURN RIGHT HEADING 150 JUST LOCALIZER RUNWAY 17, cabin: true
+2021-10-02 23:22:00.101 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 963 YOUR ROUTE FROM THE FREQ MAINTAIN 3000 TILL ESTABLISHED LOCALIZER CLEARED ILS 34 7, cabin: true
+2021-10-02 23:23:48.476 -07:00 | Debug   | 0094FC64 | TranscriptionService.swift:302 - Transcription: DELTA 9963 170 KNOTS OR GREATER UNTIL YOU YOU CONTACT HOUSTON TOWER 126.5, cabin: true
