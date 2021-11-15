@@ -188,9 +188,9 @@ class OpenSkyApi(object):
         """
         if len(self._auth) < 2:
             raise Exception("No username and password provided for get_my_states!")
-        if not self._check_rate_limit(0, 1, self.get_my_states):
-            logger.debug("Blocking request due to rate limit")
-            return None
+        #if not self._check_rate_limit(0, 1, self.get_my_states):
+        #    logger.debug("Blocking request due to rate limit")
+        #    return None
         t = time_secs
         if type(time_secs) == datetime:
             t = calendar.timegm(t.timetuple())
