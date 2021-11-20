@@ -9,7 +9,17 @@ class OntologicalProcessor():
         command = str.lower(command)
         if ('descend' in command) or ('ascend' in command) or ('climb' in command) or ('altitude' in command):
             # check if maintain / descend is here -> then check to see if the nubmer is greater than 1000
-            return True # Change this
+            # get the next word in the string
+            command_list = str.split(command)
+            alt_loc = [i for i, x in enumerate(command_list) if x=='maintain' or x=='' or x=='']
+            alt = command_list[alt_loc[0]+1]
+            if alt.isdigit():
+                return int(alt)
+
+            # check where a number exists in the string -> then return the number
+            alt_loc = [i for i, x in enumerate(command_list) if x.isdigit()]
+            alt = command_list[alt_loc[0]]
+            
         return False
 
     def find_turn(self, command):
