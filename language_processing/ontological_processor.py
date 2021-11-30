@@ -36,23 +36,24 @@ class OntologicalProcessor():
         command = str.split(command)
 
         # locate the index of heading change - TODO: implement stuff for like 10 degrees right and left
-        key_loc = [i for (i, x) in enumerate(command) if ('heading' in x) or ('degrees' in x) or ('turn' in x) or ('left' in x) or ('right' in x)]
+        key_loc_heading = [i for (i, x) in enumerate(command) if ('heading' in x) or ('turn' in x) or ('left' in x) or ('right' in x)]
+        key_loc_turn = [i for (i, x) in enumerate(command) if ('turn' in x)]
 
         # If no key locations, return NA
-        if (len(key_loc)==0):
+        if (len(key_loc_heading)==0):
             return 'NA'
         
         try:
              # Note: length of 3 is beacuse headings are always 3 digits, but "turn 10 degrees right" is not
             number_loc = [i for (i, x) in enumerate(command) if x.isdigit() and (len(x) == 3)] 
-            filtered_numbers = [i for i in number_loc if i > key_loc[0] and i <= key_loc[-1]+2] # makes sure it's directly after the keyword
+            filtered_numbers = [i for i in number_loc if i > key_loc_heading[0] and i <= key_loc_heading[-1]+2] # makes sure it's directly after the keyword
             return command[filtered_numbers[0]]
         except:
             try:
-                # If not 3 digits, must be a turn __ degrees right/left command
+                # If not 3 digits, it could be a turn ___ degrees right/left command
                 number_loc = [i for (i, x) in enumerate(command) if x.isdigit() and (len(x) == 2)] 
-                filtered_numbers = [i for i in number_loc if i < key_loc[-1]] # < becuase "right/left" will register last
-                return command[filtered_numbers[-1]]+command[key_loc[-1]] # last element because we're switching the order
+                filtered_numbers = [i for i in number_loc if i < key_loc_heading[-1] and i > key_loc_turn[0]] # < becuase "right/left" will register last
+                return command[filtered_numbers[-1]]+command[key_loc_heading[-1]] # last element because we're switching the order
             except:
                 return 'Missing ST' # doesn't account for edge cases
 
@@ -64,7 +65,27 @@ class OntologicalProcessor():
 
     def find_speed(self, command):
         command = str.lower(command)
-        return ('speed' in command) or ('reduce' in command) or ('slow' in command) or ('knots' in command)
+        command = str.split(command)
+
+        # locate the index of heading change - TODO: implement stuff for like 10 degrees right and left
+        key_loc_speed = [i for (i, x) in enumerate(command) if ('speed' in x)]
+        key_loc_knots = [i for (i, x) in enumerate(command) if ('knot' in x)]
+
+        if len(key_loc_knots) == 0 and len(key_loc_speed) == 0:
+            return 'NA'
+        
+        try:
+            number_loc = [i for (i, x) in enumerate(command) if x.isdigit() and (len(x) < 4)] # speed won't be greater than 1000
+            filtered_numbers = [i for i in number_loc if i < key_loc_knots[-1] and i >= key_loc_knots[0]-2] # makes sure it's directly before the keyword
+            return command[filtered_numbers[-1]]
+        except:
+            try:
+                # If above fails, it could be a speed reduce / increase to ___ command
+                number_loc = [i for (i, x) in enumerate(command) if x.isdigit() and (len(x) < 4)] # speed won't be greater than 1000
+                filtered_numbers = [i for i in number_loc if i > key_loc_speed[0] and i <= key_loc_speed[-1]+3] # tolerance of 3 because command includes "to" and possibly crutch words
+                return command[filtered_numbers[0]] # last element because we're switching the order
+            except:
+                return 'Missing ST' # doesn't account for edge cases
 
     def find_clearance(self, command):
         command = str.lower(command)
