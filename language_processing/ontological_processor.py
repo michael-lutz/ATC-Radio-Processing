@@ -3,7 +3,7 @@ import re
 
 class OntologicalProcessor():
     def __init__(self):
-        self.known_callsign_prefixes = ['american', 'envoy', 'biztex', 'frontier', 'skywest', 'sioux', 'cessna', 'grumman', 'speedbird']
+        self.known_callsign_prefixes = ['american', 'envoy', 'biztex', 'frontier', 'skywest', 'sioux', 'cessna', 'grumman', 'speedbird', 'delta', 'november']
 
     def find_alt(self, command): # TODO: use NLTK synonyms instead
         command = str.lower(command)
@@ -99,6 +99,23 @@ class OntologicalProcessor():
             command_list = str.split(command)
             suffix_loc = [i for i, x in enumerate(command_list) if x==prefix]
             suffix = command_list[suffix_loc[0]+1]
-            return prefix + suffix
+            return self.process_callsign(prefix, suffix)
         except:
             return 'NA'
+
+    def process_callsign(self, prefix, suffix):
+        prefix = prefix.lower()
+        #lower 
+        """
+            process_callsign(string) -> callsign
+            callsign is the callsign of the aircraft in the string
+        """
+        callsign_map = {"american":"AAL", "november":"N", "jetblue":"JBU",
+                        "envoy":"ENY", "skywest":"SKW", "skylan":"SKA",
+                        "cessna":"N", "sioux":"UND", "delta":"DAL",
+                        "jet":"JSX", "fedex":"FDX", "flexjet":"LXJ"} 
+        for key in callsign_map.keys():
+            abbreviated_callsign = prefix.replace(key, callsign_map[key])
+            if abbreviated_callsign != prefix and int(suffix):
+                return abbreviated_callsign+suffix
+        return 'N'+prefix

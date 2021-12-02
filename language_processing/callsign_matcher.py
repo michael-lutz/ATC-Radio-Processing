@@ -6,22 +6,43 @@ class CallsignMatcher():
         # Loading Data from Log File
         self.df = pd.read_csv(file_loc)
 
-    def get_transcriptions(self, length=None):
-        if length != None:
-            return self.df[self.df['Length'] > length]
-        return self.df
+    def find_match(self, callsign, threshold=None):
+        # calculate levenshtein distance for string on all of the available callsigns
+        l_distances = self.df['callsign'].apply(lambda x: self._iterative_levenshtein(callsign, x))
+        return self.df.iloc[l_distances.idxmin()]
 
-    def plot_length_distribution(self):
-        self.df.hist(column='Length', bins=50,figsize=(12,4))
 
-    # TODO: adjust for edge cases (eg. readbacks where N number follows speed, adding alt) 
-    def _clean_numbers(self, command):
-        # Use regex to remove spaces between numbers
-        while (command != re.sub(r'\d+\s+\d+', self._group_spaced_digits, command)):
-            command = re.sub(r'\d+\s+\d+', self._group_spaced_digits, command)
-        return command
+    def _iterative_levenshtein(self, s, t):
+        """ 
+            iterative_levenshtein(s, t) -> ldist
+            ldist is the Levenshtein distance between the strings 
+            s and t.
+            For all i and j, dist[i,j] will contain the Levenshtein 
+            distance between the first i characters of s and the 
+            first j characters of t
+        """
 
-    def _group_spaced_digits(self, match):
-        if len(match.group()) < 4: # NOTE: this only really appiles to approach.
-                                   # The logic is that prevents unnecessary joining
-            return match.group(0).replace(' ', '')
+        rows = len(s)+1
+        cols = len(t)+1
+        dist = [[0 for x in range(cols)] for x in range(rows)]
+
+        # source prefixes can be transformed into empty strings 
+        # by deletions:
+        for i in range(1, rows):
+            dist[i][0] = i
+
+        # target prefixes can be created from an empty source string
+        # by inserting the characters
+        for i in range(1, cols):
+            dist[0][i] = i
+            
+        for col in range(1, cols):
+            for row in range(1, rows):
+                if s[row-1] == t[col-1]:
+                    cost = 0
+                else:
+                    cost = 1
+                dist[row][col] = min(dist[row-1][col] + 1,      # deletion
+                                    dist[row][col-1] + 1,      # insertion
+                                    dist[row-1][col-1] + cost) # substitution
+        return dist[row][col]
