@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import re
 
 class CallsignMatcher():
@@ -9,7 +10,9 @@ class CallsignMatcher():
     def find_match(self, callsign, threshold=None):
         # calculate levenshtein distance for string on all of the available callsigns
         l_distances = self.df['callsign'].apply(lambda x: self._iterative_levenshtein(callsign, x))
-        return self.df.iloc[l_distances.idxmin()]
+        if type(np.where(l_distances.values == l_distances.min().values)) != int:
+            return self.df.iloc[l_distances.idxmin()]
+        return 'NA'
 
 
     def _iterative_levenshtein(self, s, t):
@@ -21,6 +24,8 @@ class CallsignMatcher():
             distance between the first i characters of s and the 
             first j characters of t
         """
+        if not type(t) == str or t == "NA":
+            return 99999
 
         rows = len(s)+1
         cols = len(t)+1
