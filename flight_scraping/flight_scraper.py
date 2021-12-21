@@ -28,8 +28,9 @@ while (time() < stop_time):
 
     # Using a try-catch encasement to try to increase api requests
     try:
-        # Calling API to receive states within 60km box outside DFW
-        s = api.get_states(bbox=(31.8998, 33.8998, -98.0403, -96.0403))
+        # Calling API to receive states within 2.5 degrees (long + lat) box outside DFW, or 150 nautical miles
+        # Note: DFW is at lat: 32.8998 long: -97.0403
+        s = api.get_states(bbox=(30.3998, 35.3998, -99.5403, -94.5403))
         for b in s.states:
             new_row = [b.icao24, b.callsign, b.origin_country, b.time_position,
                 b.last_contact, b.longitude, b.latitude, b.baro_altitude, b.on_ground,
@@ -38,7 +39,7 @@ while (time() < stop_time):
             df_large.loc[len(df_large)] = new_row
             df_batch.loc[len(df_batch)] = new_row
 
-        batch_name = 'flight_data/11-3-21-1/' + str(batch_no) # TODO: Remove date here
+        batch_name = 'flight_data/12-20-21/' + str(batch_no) # TODO: Remove date here
         df_batch.to_csv(batch_name, index=False)
         batch_no += 1
     except:
@@ -46,4 +47,4 @@ while (time() < stop_time):
 
     
 
-df_large.to_csv('11_3_6-30_12-30.csv', index=False)
+df_large.to_csv('12-20-21.csv', index=False)
