@@ -3,7 +3,7 @@ import re
 
 class OntologicalProcessor():
     def __init__(self):
-        self.known_callsign_prefixes = ['american', 'envoy', 'biztex', 'frontier', 'skywest', 'sioux', 'cessna', 'grumman', 'speedbird']
+        self.known_callsign_prefixes = ['american', 'envoy', 'biztex', 'frontier', 'skywest', 'sioux', 'cessna', 'grumman', 'speedbird', 'delta', 'november']
 
     def find_alt(self, command): # TODO: use NLTK synonyms instead
         command = str.lower(command)
@@ -14,7 +14,7 @@ class OntologicalProcessor():
         # locate the index of ascend
         key_loc = [i for (i, x) in enumerate(command) if (x == 'up') or ('down' in x) or ('descend' in x) 
                     or ('ascend' in x) or ('climb' in x) or ('altitude' in x) 
-                    or ('maintain' in x and 'knots' not in command[i:i+5] and 'speed' not in command[i:i+5])]
+                    or ('maintain' in x and 'knots' not in command[i:] and 'speed' not in command[i:])]
 
         # If there exists no keyword, there exists a number devisible by 100 
         if ((len(key_loc) == 0) and (len(number_loc) > 0)):
@@ -94,10 +94,28 @@ class OntologicalProcessor():
     def find_callsign(self, command):
         command = str.lower(command)
         prefix = set(str.split(command, " ")).intersection(set(self.known_callsign_prefixes))
-        if prefix:
+        try:
             prefix = prefix.pop()
             command_list = str.split(command)
             suffix_loc = [i for i, x in enumerate(command_list) if x==prefix]
             suffix = command_list[suffix_loc[0]+1]
-            return prefix + suffix
-        return False
+            return self.process_callsign(prefix, suffix)
+        except:
+            return 'NA'
+
+    def process_callsign(self, prefix, suffix):
+        prefix = prefix.lower()
+        #lower 
+        """
+            process_callsign(string) -> callsign
+            callsign is the callsign of the aircraft in the string
+        """
+        callsign_map = {"american":"AAL", "november":"N", "jetblue":"JBU",
+                        "envoy":"ENY", "skywest":"SKW", "skylan":"SKA",
+                        "cessna":"N", "sioux":"UND", "delta":"DAL",
+                        "jet":"JSX", "fedex":"FDX", "flexjet":"LXJ"} 
+        for key in callsign_map.keys():
+            abbreviated_callsign = prefix.replace(key, callsign_map[key])
+            if abbreviated_callsign != prefix and int(suffix):
+                return abbreviated_callsign+suffix
+        return 'N'+prefix
