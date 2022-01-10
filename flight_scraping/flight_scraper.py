@@ -11,7 +11,7 @@ df_large = pd.DataFrame(columns=["icao24", "callsign", "origin_country", "time_p
             "geo_altitude", "squawk", "spi", "position_source", "fetch_time"])
 
 batch_no = 0
-hours = 5
+hours = 12
 
 stop_time = time() + 60*60*hours
 
@@ -39,7 +39,7 @@ while (time() < stop_time):
             df_large.loc[len(df_large)] = new_row
             df_batch.loc[len(df_batch)] = new_row
 
-        batch_name = 'flight_data/12-20-21/' + str(batch_no) # TODO: Remove date here
+        batch_name = '../flight_data/01-09-21/' + str(batch_no) # TODO: Remove date here
         df_batch.to_csv(batch_name, index=False)
         batch_no += 1
     except:
@@ -47,4 +47,4 @@ while (time() < stop_time):
 
     
 
-df_large.to_csv('12-20-21.csv', index=False)
+df_large.to_csv('01-09-21.csv', index=False)
