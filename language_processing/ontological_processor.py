@@ -31,7 +31,7 @@ class OntologicalProcessor():
             return 'Missing ST' # doesn't account for edge cases
         
 
-    def find_turn(self, command):
+    def find_turn(self, command): # TODO: address edge case of "___ on the heading" in returns
         command = str.lower(command)
         command = str.split(command)
 

@@ -7,17 +7,41 @@ class CallsignMatcher():
         # Loading Data from Log File
         self.df = pd.read_csv(file_loc)
 
-    def find_match(self, callsign, threshold=None):
+        # Cleaning Data
+        self.df['time_position'] = self.df['time_position'].apply(lambda x: int(x))
+
+
+    # TODO: Find a well-integrated way to make the searches restricted to a moment in time.
+    # Eg: search only from t-c to t+c where t is time of utterance and c is a constant
+    # This will reduce amount of instances of multiple matches.
+    # To implement: take t as an input to find_match()
+    # Then add filter when defining callsigns_unique
+
+
+    def find_match(self, callsign, threshold=None, t=-1, c = 1200):
+        # return NA if given NA
+        if callsign == 'NA':
+            return 'NA'
+        
         # calculate levenshtein distance for string on all of the available callsigns
-        l_distances = self.df['callsign'].apply(lambda x: self._iterative_levenshtein(callsign, x)).values
-
-        if threshold:
-            matches = np.where(l_distances == l_distances.min() and l_distances < threshold)
+        if t == -1:
+            callsigns_unique = pd.Series(self.df['callsign'].unique())
         else:
-            matches = np.where(l_distances == l_distances.min())
+            callsigns_unique = pd.Series(self.df[(self.df['time_position'] < t + c) & (self.df['time_position'] > t - c)]['callsign'].unique())
+        
+        l_distances = callsigns_unique.apply(lambda x: self._iterative_levenshtein(callsign, x)).values
 
-        if len(matches) == 1:
-            return matches[0]
+        if threshold and len(l_distances) > 0:
+            matches = np.where(l_distances == l_distances.min() and l_distances < threshold)
+        elif len(l_distances) > 0:
+            matches = np.where(l_distances == l_distances.min())
+        else:
+            return 'NA'
+
+        print(matches)
+
+        if len(matches[0]) == 1:
+            return callsigns_unique[int(matches[0][0])]
         else:
             return 'NA'
 
