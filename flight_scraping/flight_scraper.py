@@ -30,7 +30,13 @@ while (time() < stop_time):
     try:
         # Calling API to receive states within 2.5 degrees (long + lat) box outside DFW, or 150 nautical miles
         # Note: DFW is at lat: 32.8998 long: -97.0403
-        s = api.get_states(bbox=(30.3998, 35.3998, -99.5403, -94.5403))
+        # s = api.get_states(bbox=(30.3998, 35.3998, -99.5403, -94.5403))
+
+        # For KRNO airport
+        # Note: KRNO is lat: 39.4996 long: -119.7681
+        s = api.get_states(bbox=(36.9996, 41.9996, -122.2681, -117.2681))
+
+
         for b in s.states:
             new_row = [b.icao24, b.callsign, b.origin_country, b.time_position,
                 b.last_contact, b.longitude, b.latitude, b.baro_altitude, b.on_ground,
@@ -39,7 +45,7 @@ while (time() < stop_time):
             df_large.loc[len(df_large)] = new_row
             df_batch.loc[len(df_batch)] = new_row
 
-        batch_name = '../flight_data/01-09-21/' + str(batch_no) # TODO: Remove date here
+        batch_name = '../flight_data/KRNO-01-09-22/' + str(batch_no) # TODO: Remove date here
         df_batch.to_csv(batch_name, index=False)
         batch_no += 1
     except:
@@ -47,4 +53,4 @@ while (time() < stop_time):
 
     
 
-df_large.to_csv('01-09-21.csv', index=False)
+df_large.to_csv('KRNO-01-09-22', index=False)
