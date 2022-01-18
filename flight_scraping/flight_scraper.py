@@ -34,8 +34,9 @@ while (time() < stop_time):
 
         # For KRNO airport
         # Note: KRNO is lat: 39.4996 long: -119.7681
-        s = api.get_states(bbox=(36.9996, 41.9996, -122.2681, -117.2681))
-
+        #s = api.get_states(bbox=(36.9996, 41.9996, -122.2681, -117.2681))
+        s = api.get_states()
+        print(s.states)
 
         for b in s.states:
             new_row = [b.icao24, b.callsign, b.origin_country, b.time_position,
@@ -45,7 +46,7 @@ while (time() < stop_time):
             df_large.loc[len(df_large)] = new_row
             df_batch.loc[len(df_batch)] = new_row
 
-        batch_name = '../flight_data/KRNO-01-09-22/' + str(batch_no) # TODO: Remove date here
+        batch_name = '../flight_data/test/' + str(batch_no) # TODO: Remove date here
         df_batch.to_csv(batch_name, index=False)
         batch_no += 1
     except:
