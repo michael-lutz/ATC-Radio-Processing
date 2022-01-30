@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a4080c,UPS1341 ,United States,1643259489,1643259489,-75.9774,36.7801,10066.02,False,250.06,17.73,0,,9982.2,3773,False,0,1643259490

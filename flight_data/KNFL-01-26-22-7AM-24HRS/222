@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a44cca,DAL2668 ,United States,1643304037,1643304050,-118.7454,39.3942,8839.2,False,244.29,146.95,0,,9022.08,,False,0,1643304050

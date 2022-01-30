@@ -1,0 +1,3 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a06010,AAL456  ,United States,1643287767,1643287768,-75.9481,36.7971,8846.82,False,254.36,16.93,0,,8793.48,3671,False,0,1643287769
+a85ff5,JBU1502 ,United States,1643287769,1643287769,-75.9603,36.7987,11894.82,False,245.7,17.3,0,,11879.58,3760,False,0,1643287769

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a1ba0f,FFT2168 ,United States,1643315222,1643315227,-118.6748,39.3584,11277.6,False,245.34,147.68,0,,11437.62,3534,False,0,1643315236

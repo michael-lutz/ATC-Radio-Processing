@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a13763,N178FA  ,United States,1643311583,1643311649,-118.7058,39.4892,9448.8,False,164.89,150.88,0,,,,False,0,1643311652

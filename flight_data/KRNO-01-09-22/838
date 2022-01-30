@@ -1,0 +1,6 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a36980,AAY521  ,United States,1642413602,1642413602,-119.5222,40.2686,11894.82,False,216.27,162.99,0.33,,12047.22,,False,0,1642413602
+a89fa3,DAL8839 ,United States,1642413602,1642413602,-122.0167,38.1636,6911.34,False,233.27,52.35,11.38,,7002.78,1057,False,0,1642413602
+addadb,JBU34   ,United States,1642413310,1642413310,-118.9317,39.9759,9456.42,False,238.14,56.72,0.0,,9624.06,3340,False,0,1642413602
+abb6b5,FDX350  ,United States,1642413598,1642413598,-122.2214,37.7166,,True,0.0,340.31,,,,7443,False,0,1642413602
+adb34f,N982HP  ,United States,1642413602,1642413602,-122.1678,37.9522,670.56,False,63.61,341.13,0,,670.56,4750,False,0,1642413602

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a3db5e,DAL2776 ,United States,1643303126,1643303126,-76.1053,36.888,10363.2,False,210.08,205.69,0,,10279.38,1726,False,0,1643303126

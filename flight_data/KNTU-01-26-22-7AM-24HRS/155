@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a84dce,NKS3150 ,United States,1643301373,1643301375,-76.0644,36.8616,8831.58,False,227.08,21.39,0,,8747.76,6262,False,0,1643301377

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+c06a7d,TSC196  ,Canada,1643293831,1643293831,-76.0715,36.8447,10347.96,False,200.85,206.96,0,,10294.62,0661,False,0,1643293832

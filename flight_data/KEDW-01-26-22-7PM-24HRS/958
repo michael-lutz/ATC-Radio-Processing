@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ad15a0,ASH5933 ,United States,1643293782,1643293782,-117.8822,34.9466,7879.08,False,225.43,91.7,9.43,,8023.86,1001,False,0,1643293783

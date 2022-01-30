@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ac267c,AAL1875 ,United States,1643288255,1643288255,-76.0686,36.7803,8534.4,False,212.36,201.9,0,,8481.06,1771,False,0,1643288257

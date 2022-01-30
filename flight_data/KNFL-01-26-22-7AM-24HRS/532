@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a3f944,XOJ355  ,United States,1643316580,1643316627,-118.6463,39.4997,13716,False,244.46,68.13,0.33,,13921.74,5612,False,0,1643316899

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+aab812,AAL954  ,United States,1643280833,1643280833,-76.0064,36.8166,11887.2,False,262.42,19.11,0,,11871.96,0531,False,0,1643280833

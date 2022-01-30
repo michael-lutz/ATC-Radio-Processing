@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a11d47,DAL253  ,United States,1643309272,1643309273,-76.0881,36.8509,10363.2,False,222.25,206.39,0,,10248.9,3351,False,0,1643309274

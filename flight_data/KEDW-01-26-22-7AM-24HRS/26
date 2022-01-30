@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a8fd3c,AAL1019 ,United States,1643296013,1643296013,-117.8179,34.9926,10668,False,252.68,117.92,0,,10850.88,3215,False,0,1643296014

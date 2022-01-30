@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ae10e9,C2003   ,United States,1643331035,1643331035,-75.9928,36.8703,3688.08,False,105.93,209.05,-6.5,,3985.26,5323,False,0,1643331036

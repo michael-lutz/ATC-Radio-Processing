@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+424660,VPBTW   ,United Kingdom,1643284694,1643284695,-75.9572,36.8772,11887.2,False,241.42,18.13,0,,11841.48,0552,False,0,1643284695

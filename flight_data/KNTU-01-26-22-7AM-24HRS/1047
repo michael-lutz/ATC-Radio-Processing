@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a44e5f,LXJ377  ,United States,1643337672,1643337672,-75.951,36.7751,13716,False,190.28,209.48,0.33,,13738.86,1703,False,0,1643337673

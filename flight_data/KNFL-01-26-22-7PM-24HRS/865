@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+7380c4,ELY005  ,Israel,1643288409,1643288409,-118.7922,39.4999,11582.4,False,252.74,191.74,0.33,,11696.7,1313,False,0,1643288410

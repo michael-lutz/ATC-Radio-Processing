@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a09cad,AAL2642 ,United States,1643287201,1643287201,-76.0536,36.7488,9304.02,False,249.92,19.48,-4.88,,9258.3,1437,False,0,1643287202

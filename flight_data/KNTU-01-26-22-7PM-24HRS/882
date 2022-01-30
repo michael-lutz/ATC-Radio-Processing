@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a2925a,JBU668  ,United States,1643289199,1643289199,-75.9903,36.7461,11887.2,False,248.28,17.61,0,,11864.34,3650,False,0,1643289200

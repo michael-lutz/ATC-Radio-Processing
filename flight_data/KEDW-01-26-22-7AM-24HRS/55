@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+abef16,SWA1798 ,United States,1643297186,1643297186,-117.8117,34.9319,10828.02,False,251.23,116.77,5.53,,10988.04,3231,False,0,1643297186

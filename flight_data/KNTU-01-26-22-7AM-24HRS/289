@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a223f0,EJA237  ,United States,1643306828,1643306828,-76.0332,36.8163,9364.98,False,252.72,19.87,-5.2,,9250.68,1554,False,0,1643306828

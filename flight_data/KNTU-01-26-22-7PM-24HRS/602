@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a35eb0,AAL2280 ,United States,1643277695,1643277695,-75.9973,36.7513,10668,False,243.41,21.58,0,,10629.9,4623,False,0,1643277696

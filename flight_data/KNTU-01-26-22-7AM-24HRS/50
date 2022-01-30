@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+c049e9,SWG340  ,Canada,1643297093,1643297093,-76.0857,36.8479,12192,False,209.13,206.44,0,,12161.52,3136,False,0,1643297095

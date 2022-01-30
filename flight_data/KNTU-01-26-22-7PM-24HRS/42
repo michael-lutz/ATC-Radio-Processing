@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a8712a,JBU1154 ,United States,1643254943,1643254943,-75.9429,36.8789,11277.6,False,251.69,17.73,0.33,,11239.5,5751,False,0,1643254944

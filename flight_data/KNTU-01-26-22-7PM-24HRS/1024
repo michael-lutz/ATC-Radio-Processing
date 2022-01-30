@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+4247d1,CAY793  ,United Kingdom,1643294961,1643294962,-76.1041,36.8583,11582.4,False,206.37,206.18,0,,11544.3,7155,False,0,1643294962

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a62455,TAI567  ,United States,1643273752,1643273753,-75.9723,36.7537,10370.82,False,202.72,209.49,0,,10325.1,1553,False,0,1643273753

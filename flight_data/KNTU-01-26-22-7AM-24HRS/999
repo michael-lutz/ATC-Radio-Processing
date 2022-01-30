@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a00945,JIT721  ,United States,1643335714,1643335715,-76.0215,36.8302,8839.2,False,203.89,19.76,0,,8808.72,7476,False,0,1643335716

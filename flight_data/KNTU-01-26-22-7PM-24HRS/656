@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a3b529,AAL2160 ,United States,1643279891,1643279891,-75.9731,36.7528,11277.6,False,245.55,17.18,-0.33,,11254.74,2246,False,0,1643279891

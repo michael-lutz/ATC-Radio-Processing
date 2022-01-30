@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+0c20a8,CMP803  ,Panama,1643295753,1643295754,-76.0752,36.8806,10363.2,False,199.47,206.5,0,,10279.38,1606,False,0,1643295754

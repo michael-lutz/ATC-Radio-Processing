@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+4ac8a8,SAS953  ,Sweden,1643308376,1643308376,-76.0833,36.8843,11582.4,False,220.64,206.15,0,,11536.68,0753,False,0,1643308376

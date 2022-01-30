@@ -1,0 +1,6 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a3dc4e,N348PC  ,United States,1642410403,1642410404,-120.8339,38.8918,4533.9,False,134.99,53.52,0,,4655.82,,False,0,1642410405
+781345,CCA626  ,China,1642410404,1642410405,-122.2392,38.1658,11582.4,False,256.62,327.78,0,,11689.08,1023,False,0,1642410405
+abb6b5,FDX350  ,United States,1642410397,1642410402,-122.2214,37.7166,,True,0.0,340.31,,,,7443,False,0,1642410405
+aa7abd,UAL1484 ,United States,1642410405,1642410405,-120.9838,38.0099,8298.18,False,245.37,78.88,9.43,,8420.1,3231,False,0,1642410405
+adb34f,N982HP  ,United States,1642410405,1642410405,-122.1702,37.8257,609.6,False,63.07,151.76,0,,609.6,,False,0,1642410405

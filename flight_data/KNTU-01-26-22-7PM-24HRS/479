@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a9b9ea,AVA020  ,United States,1643272692,1643272692,-76.0536,36.8601,11902.44,False,248.39,21.25,0,,11871.96,2264,False,0,1643272693

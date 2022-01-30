@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a4ba76,AAL2175 ,United States,1643331730,1643331732,-75.9567,36.7651,10980.42,False,208.02,209.48,-0.33,,10957.56,1610,False,0,1643331734

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ae0677,RCH106  ,United States,1643323356,1643323356,-76.0839,36.8952,8930.64,False,190.48,267.83,-8.45,,8907.78,3632,False,0,1643323357

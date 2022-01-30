@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a9c2e9,SWA1201 ,United States,1643297516,1643297516,-117.8843,34.9817,11887.2,False,254.25,117.34,0,,12077.7,3233,False,0,1643297517

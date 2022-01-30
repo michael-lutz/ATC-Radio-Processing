@@ -2,7 +2,16 @@ import pandas as pd
 import re
 
 class Preprocessor():
-    def __init__(self, file_loc):
+    def __init__(self, file_loc, log=True):
+        if log:
+            self.read_log(file_loc)
+        else:
+            self.read_json(file_loc)
+
+        self.df['Length'] = self.df['Transcriptions'].apply(len)
+        self.df['Transcriptions'] = self.df['Transcriptions'].apply(self._clean_numbers)
+
+    def read_log(self, file_loc):
         # Loading Data from Log File
         f = open(file_loc)
         string_file = f.read()
@@ -12,8 +21,11 @@ class Preprocessor():
         # Creating Pandas Data Frame from Data
         self.df = pd.DataFrame(list(zip(time_stamps, transcriptions)),
                     columns =['Time', 'Transcriptions'])
-        self.df['Length'] = self.df['Transcriptions'].apply(len)
-        self.df['Transcriptions'] = self.df['Transcriptions'].apply(self._clean_numbers)
+
+    def read_json(self, file_loc):
+        self.df = pd.read_json(file_loc)
+        self.df = self.df[['id', 'endDate', 'utterance']]
+        self.df = self.df.rename(columns={'endDate': 'Time', 'utterance': 'Transcriptions'})
 
     def get_transcriptions(self, length=None):
         if length != None:

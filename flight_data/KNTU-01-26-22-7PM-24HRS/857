@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ab76f8,N838KE  ,United States,1643288184,1643288184,-75.9762,36.7901,12496.8,False,257.7,17.78,0.33,,12496.8,3705,False,0,1643288185

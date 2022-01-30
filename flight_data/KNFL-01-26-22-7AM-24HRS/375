@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a71d34,ASA612  ,United States,1643310510,1643310510,-118.7944,39.4105,11582.4,False,214.72,330.43,-0.33,,11734.8,,False,0,1643310511

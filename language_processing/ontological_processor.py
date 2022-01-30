@@ -44,8 +44,8 @@ class OntologicalProcessor():
             return 'NA'
         
         try:
-             # Note: length of 3 is beacuse headings are always 3 digits, but "turn 10 degrees right" is not
-            number_loc = [i for (i, x) in enumerate(command) if x.isdigit() and (len(x) == 3)] 
+            # Note: length of 3 is beacuse headings are always 3 digits, but "turn 10 degrees right" is not
+            number_loc = [i for (i, x) in enumerate(command) if x.isdigit() and (len(x) == 3) and int(x) <= 360] 
             filtered_numbers = [i for i in number_loc if i > key_loc_heading[0] and i <= key_loc_heading[-1]+2] # makes sure it's directly after the keyword
             return command[filtered_numbers[0]]
         except:

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a41151,N361PJ  ,United States,1643318119,1643318119,-118.7424,39.411,11277.6,False,234.35,151.41,0,,11460.48,,False,0,1643318120

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+aa0db8,NASA747 ,United States,1643290325,1643290326,-118.7913,39.3642,13106.4,False,272.83,158.08,0.33,,13289.28,,False,0,1643290327

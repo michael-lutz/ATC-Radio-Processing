@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+c02fed,ACA1295 ,Canada,1643326807,1643326807,-76.0941,36.7616,10972.8,False,210.87,342.54,0,,10942.32,1423,False,0,1643326808

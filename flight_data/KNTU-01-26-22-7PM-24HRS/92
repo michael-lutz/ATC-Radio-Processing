@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a707a3,JBU1701 ,United States,1643256971,1643256972,-76.0944,36.7743,9753.6,False,202.75,211.51,0,,9715.5,1774,False,0,1643256972

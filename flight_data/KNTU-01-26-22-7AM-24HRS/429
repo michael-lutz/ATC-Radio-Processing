@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a23f37,N244DS  ,United States,1643312526,1643312526,-76.0658,36.8287,13106.4,False,253.54,207.03,0,,13114.02,2727,False,0,1643312526

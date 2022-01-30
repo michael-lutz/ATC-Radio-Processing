@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+acce3c,NKS3043 ,United States,1643256558,1643256559,-75.9724,36.7558,8854.44,False,250.92,17.17,-1.63,,8793.48,6017,False,0,1643256559

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ac96df,JANET10 ,United States,1643301300,1643301300,-117.8561,34.9023,4617.72,False,126.13,33.69,0,,4709.16,,False,0,1643301300

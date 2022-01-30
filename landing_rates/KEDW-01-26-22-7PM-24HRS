@@ -1,0 +1,5 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a600e4,SWA2257 ,United States,1643291669,1643291670,-117.8862,34.9424,11887.2,False,252.61,116.62,0,,12070.08,3264,False,0,1643291670
+a9a58d,SWA2062 ,United States,1643293501,1643293501,-117.8577,34.9678,12192.0,False,214.04,300.63,0,,12367.26,,False,0,1643293502
+ad15a0,ASH5933 ,United States,1643293782,1643293782,-117.8822,34.9466,7879.08,False,225.43,91.7,9.43,,8023.86,1001,False,0,1643293783
+a78e09,AAL2042 ,United States,1643294842,1643294842,-117.9061,34.868,10668.0,False,242.79,115.21,0,,10828.02,3306,False,0,1643294843

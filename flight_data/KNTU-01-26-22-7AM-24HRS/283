@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a4eeed,N417JD  ,United States,1643306582,1643306582,-76.0783,36.8549,12192,False,207.52,206.5,0.33,,12146.28,2650,False,0,1643306583

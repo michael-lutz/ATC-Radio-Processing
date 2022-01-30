@@ -11,10 +11,22 @@ df_large = pd.DataFrame(columns=["icao24", "callsign", "origin_country", "time_p
             "geo_altitude", "squawk", "spi", "position_source", "fetch_time"])
 
 batch_no = 0
-hours = 12
-
+hours = 24
 stop_time = time() + 60*60*hours
 
+tolerance = 150 / 60
+
+# For KEDW:
+latitude = 34.9240
+longitude = -117.8912
+
+# For KNFL:
+#latitude = 39.4204
+#longitude = -118.7242
+
+# For KNTU:
+latitude = 36.8124
+longitude = -76.0248
 
 
 while (time() < stop_time):
@@ -35,8 +47,9 @@ while (time() < stop_time):
         # For KRNO airport
         # Note: KRNO is lat: 39.4996 long: -119.7681
         #s = api.get_states(bbox=(36.9996, 41.9996, -122.2681, -117.2681))
-        s = api.get_states()
-        print(s.states)
+        #s = api.get_states()
+        
+        s = api.get_states(bbox=(latitude - tolerance, latitude + tolerance, longitude - tolerance, longitude + tolerance))
 
         for b in s.states:
             new_row = [b.icao24, b.callsign, b.origin_country, b.time_position,
@@ -46,12 +59,14 @@ while (time() < stop_time):
             df_large.loc[len(df_large)] = new_row
             df_batch.loc[len(df_batch)] = new_row
 
-        batch_name = '../flight_data/test/' + str(batch_no) # TODO: Remove date here
-        df_batch.to_csv(batch_name, index=False)
+        #batch_name = '../flight_data/KNTU-01-26-22-7AM-24HRS/' + str(batch_no) # TODO: Remove date here
+        #df_batch.to_csv(batch_name, index=False)
         batch_no += 1
     except:
         sleep(60)
 
     
 
-df_large.to_csv('KRNO-01-09-22', index=False)
+#df_large.to_csv('KEDW-01-29-22-7AM-24HRS', index=False)
+#df_large.to_csv('KNFL-01-29-22-7AM-24HRS', index=False)
+df_large.to_csv('KNTU-01-29-22-7AM-24HRS', index=False)

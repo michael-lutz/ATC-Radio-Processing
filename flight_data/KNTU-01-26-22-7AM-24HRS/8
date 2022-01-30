@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+4d233f,MLH9004 ,Malta,1643295392,1643295392,-76.0892,36.8708,11582.4,False,202.46,206.24,0,,11567.16,3132,False,0,1643295393

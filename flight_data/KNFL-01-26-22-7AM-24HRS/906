@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a44240,DAL1290 ,United States,1643332123,1643332123,-118.686,39.4524,11277.6,False,247.75,148.59,0,,11460.48,,False,0,1643332124

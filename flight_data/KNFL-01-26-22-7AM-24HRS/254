@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a1ecff,SKW5872 ,United States,1643305469,1643305469,-118.7432,39.4467,10058.4,False,209.89,67.52,-0.33,,10226.04,1757,False,0,1643305470

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a9607d,JBU121  ,United States,1643289157,1643289158,-76.0976,36.8893,10370.82,False,203.4,205.79,-0.33,,10325.1,1556,False,0,1643289158

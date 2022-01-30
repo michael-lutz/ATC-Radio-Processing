@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a1b2ee,JBU1769 ,United States,1643316919,1643316919,-76.0793,36.8901,10370.82,False,220.18,206.21,0,,10294.62,2734,False,0,1643316920

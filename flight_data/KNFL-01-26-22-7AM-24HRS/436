@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a92bec,,United States,1643312924,1643312931,-118.7411,39.4293,11582.4,False,215.83,337.29,0,,11757.66,,False,0,1643312992

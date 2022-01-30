@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a782dd,UPS32   ,United States,1643292595,1643292595,-118.7344,39.4633,10972.8,False,253.48,238.7,0,,11094.72,,False,0,1643292599

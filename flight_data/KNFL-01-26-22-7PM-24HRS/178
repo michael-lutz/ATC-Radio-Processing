@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a2cfa2,SKW4115 ,United States,1643260487,1643260487,-118.8066,39.401,10972.8,False,205.79,0.57,-0.33,,11102.34,1341,False,0,1643260488

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ad0e5e,NKS1810 ,United States,1643254163,1643254163,-75.9876,36.7961,9418.32,False,243.7,18.21,-5.2,,9372.6,3563,False,0,1643254164

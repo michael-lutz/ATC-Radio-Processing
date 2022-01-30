@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a365f8,EJA318  ,United States,1643300194,1643300194,-76.0763,36.8748,13106.4,False,198.09,206.37,0,,13106.4,3434,False,0,1643300194

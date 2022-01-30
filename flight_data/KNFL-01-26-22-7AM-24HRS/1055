@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a33964,ASA1289 ,United States,1643338180,1643338180,-118.8056,39.3382,9753.6,False,222.44,329.88,0,,9966.96,,False,0,1643338181

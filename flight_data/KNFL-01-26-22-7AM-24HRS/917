@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a8609f,QXE2107 ,United States,1643332349,1643332349,-118.6416,39.4208,11277.6,False,234.07,148.76,-0.33,,11468.1,,False,0,1643332568

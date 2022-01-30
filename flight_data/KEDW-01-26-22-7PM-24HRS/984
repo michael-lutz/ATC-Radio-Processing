@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a78e09,AAL2042 ,United States,1643294842,1643294842,-117.9061,34.868,10668,False,242.79,115.21,0,,10828.02,3306,False,0,1643294843

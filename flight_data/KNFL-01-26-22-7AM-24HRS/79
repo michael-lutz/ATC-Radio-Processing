@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+abec6c,SWA1915 ,United States,1643298217,1643298217,-118.7792,39.4993,10431.78,False,238.36,147.78,-4.88,,10591.8,,False,0,1643298217

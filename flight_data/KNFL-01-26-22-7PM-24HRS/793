@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a52c5c,UPS944  ,United States,1643285483,1643285485,-118.736,39.4155,9144,False,244.64,220.05,0,,9258.3,,False,0,1643285486

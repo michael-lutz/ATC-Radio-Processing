@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a805f0,EJM616  ,United States,1643320261,1643320261,-76.0237,36.7706,12192,False,255.67,189.61,-0.33,,12138.66,3507,False,0,1643320262

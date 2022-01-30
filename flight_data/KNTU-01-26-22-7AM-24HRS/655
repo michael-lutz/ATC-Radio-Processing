@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a7dacf,TWY35   ,United States,1643321728,1643321728,-76.0672,36.7463,10972.8,False,224.36,207.74,-0.33,,10927.08,7324,False,0,1643321729

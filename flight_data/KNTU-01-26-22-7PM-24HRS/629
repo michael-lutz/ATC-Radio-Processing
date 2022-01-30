@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a3ca01,AAL2164 ,United States,1643278795,1643278795,-76.0936,36.8791,11887.2,False,250.52,24.25,0,,11856.72,1462,False,0,1643278795

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a9b6e8,JKR72   ,United States,1643256726,1643256726,-75.9445,36.8291,12512.04,False,216.91,17.1,0,,12481.56,7427,False,0,1643256727

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+ac18fe,AAL1259 ,United States,1643292238,1643292238,-76.1049,36.8404,10363.2,False,201.77,206.17,0.33,,10309.86,7324,False,0,1643292238

@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a8c028,JBU853  ,United States,1643307231,1643307232,-76.0752,36.8512,10972.8,False,210.05,206.63,0,,10904.22,7102,False,0,1643307233

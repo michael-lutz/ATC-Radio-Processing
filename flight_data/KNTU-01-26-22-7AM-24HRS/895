@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a63bc0,GAJ500  ,United States,1643331482,1643331482,-76.046,36.8528,8839.2,False,229.08,21.61,0,,8793.48,1074,False,0,1643331483

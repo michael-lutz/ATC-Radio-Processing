@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a52e5b,ATN3379 ,United States,1643265518,1643265519,-118.7921,39.3788,12192,False,235.27,5.77,0.33,,12283.44,7351,False,0,1643265521

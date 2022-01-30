@@ -1,0 +1,2 @@
+icao24,callsign,origin_country,time_position,last_contact,longitude,latitude,baro_altitude,on_ground,velocity,heading,vertical_rate,sensors,geo_altitude,squawk,spi,position_source,fetch_time
+a600e4,SWA2257 ,United States,1643291669,1643291670,-117.8862,34.9424,11887.2,False,252.61,116.62,0,,12070.08,3264,False,0,1643291670
