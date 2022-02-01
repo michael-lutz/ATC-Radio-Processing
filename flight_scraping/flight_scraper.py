@@ -25,8 +25,8 @@ longitude = -117.8912
 #longitude = -118.7242
 
 # For KNTU:
-latitude = 36.8124
-longitude = -76.0248
+#latitude = 36.8124
+#longitude = -76.0248
 
 
 while (time() < stop_time):
@@ -67,6 +67,6 @@ while (time() < stop_time):
 
     
 
-#df_large.to_csv('KEDW-01-29-22-7AM-24HRS', index=False)
+df_large.to_csv('KEDW-01-29-22-7AM-24HRS', index=False)
 #df_large.to_csv('KNFL-01-29-22-7AM-24HRS', index=False)
-df_large.to_csv('KNTU-01-29-22-7AM-24HRS', index=False)
+#df_large.to_csv('KNTU-01-29-22-7AM-24HRS', index=False)
