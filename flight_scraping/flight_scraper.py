@@ -14,7 +14,7 @@ batch_no = 0
 hours = 24
 stop_time = time() + 60*60*hours
 
-tolerance = 150 / 60
+tolerance = 200 / 60
 
 # For KEDW:
 latitude = 34.9240
@@ -51,6 +51,9 @@ while (time() < stop_time):
         
         s = api.get_states(bbox=(latitude - tolerance, latitude + tolerance, longitude - tolerance, longitude + tolerance))
 
+
+        #s = api.get_states(bbox=(30.3998, 35.3998, -99.5403, -94.5403))
+
         for b in s.states:
             new_row = [b.icao24, b.callsign, b.origin_country, b.time_position,
                 b.last_contact, b.longitude, b.latitude, b.baro_altitude, b.on_ground,
@@ -59,14 +62,14 @@ while (time() < stop_time):
             df_large.loc[len(df_large)] = new_row
             df_batch.loc[len(df_batch)] = new_row
 
-        #batch_name = '../flight_data/KNTU-01-26-22-7AM-24HRS/' + str(batch_no) # TODO: Remove date here
-        #df_batch.to_csv(batch_name, index=False)
+        batch_name = '../flight_data/KEDW-02-17-22' + str(batch_no) # TODO: Remove date here
+        df_batch.to_csv(batch_name, index=False)
         batch_no += 1
     except:
         sleep(60)
 
     
 
-df_large.to_csv('KEDW-01-29-22-7AM-24HRS', index=False)
-#df_large.to_csv('KNFL-01-29-22-7AM-24HRS', index=False)
-#df_large.to_csv('KNTU-01-29-22-7AM-24HRS', index=False)
+df_large.to_csv('KEDW-02-17-22-24HRS', index=False)
+#df_large.to_csv('KNFL-02-17-22-24HRS', index=False)
+#df_large.to_csv('KNTU-02-17-22-24HRS', index=False)
