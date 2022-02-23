@@ -26,6 +26,7 @@ class Preprocessor():
         self.df = pd.read_json(file_loc)
         self.df = self.df[['id', 'endDate', 'utterance']]
         self.df = self.df.rename(columns={'endDate': 'Time', 'utterance': 'Transcriptions'})
+        self.df['Time'] = self.df['Time'].apply(lambda x: int(x) + 978307200) # Test to make sure it works
 
     def get_transcriptions(self, length=None):
         if length != None:

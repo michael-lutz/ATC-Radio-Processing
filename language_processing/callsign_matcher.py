@@ -4,7 +4,7 @@ import re
 
 class CallsignMatcher():
     def __init__(self, file_loc):
-        # Loading Data from Log File
+        # Loading track data
         self.df = pd.read_csv(file_loc)
 
         # Cleaning Data
