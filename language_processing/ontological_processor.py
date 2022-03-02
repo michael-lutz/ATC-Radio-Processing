@@ -3,7 +3,8 @@ import re
 
 class OntologicalProcessor():
     def __init__(self):
-        self.known_callsign_prefixes = ['american', 'envoy', 'biztex', 'frontier', 'skywest', 'sioux', 'cessna', 'grumman', 'speedbird', 'delta', 'november']
+        self.known_callsign_prefixes = ['american', 'envoy', 'bizex', 'frontier', 'skywest', 'skylan', 'sioux', 'cessna', 'grumman', 'speedbird', 'delta', 'november', 'united', 'us', 'jet',
+                                        'fedex', 'ups', 'northwest', 'lufthansa', 'air', 'nera', 'continental', 'clipper', 'cactus', 'flexjet']
 
     def find_alt(self, command): # TODO: use NLTK synonyms instead
         command = str.lower(command)
@@ -113,9 +114,49 @@ class OntologicalProcessor():
         callsign_map = {"american":"AAL", "november":"N", "jetblue":"JBU",
                         "envoy":"ENY", "skywest":"SKW", "skylan":"SKA",
                         "cessna":"N", "sioux":"UND", "delta":"DAL",
-                        "jet":"JSX", "fedex":"FDX", "flexjet":"LXJ"} 
+                        "jet":"JSX", "fedex":"FDX", "flexjet":"LXJ",
+                        "cactus": "CACTUS", "united": 'UAL', 
+                        'northwest': "", "lufthansa": "", "us air": "", "jet link": "", 'nera': "", "bizex": "", 'continental': "", "clipper": ""}
         for key in callsign_map.keys():
             abbreviated_callsign = prefix.replace(key, callsign_map[key])
             if abbreviated_callsign != prefix and int(suffix):
                 return abbreviated_callsign+suffix
         return 'N'+prefix
+
+"""
+    ['JUS', 'FTH', 'WJA', 'AMF', 'LXJ', 'RAX', 'UAL', 'ASA',
+    'SWA', 'YAN', 'CSI', 'EJA', 'CAP', 'OAE', None,
+    'EMD', 'MDS', 'FFT', 'ASH', 'TWY', 'VPC', 'FDY',
+    'GND', '000', 'JSX', 'TRF', 'THY', 'FDX', 'UCA', 'SCU', 'JTL',
+    'RON', 'JZA', 'VOI', 'OST', 'SJE', 'VTM', 'BTQ', 'UPS', 'VJT',
+    '   ', 'XOJ', '001', 'FRG', 'MVJ', 'JIA', 'BYA', 'CAL', 'ATN',
+    'SCX', 'SNT', 'VAN', 'MRA', 'BAW', 'LOO', 'GTI', 'GJE', 'CTF',
+    'VIV', 'QTR', 'FTD', 'UAE', '.N1', 'CKS', 'BVN', 'LBQ', '.N5',
+    'SWG', 'X  ', 'OUT', 'SLH', '157', 'UNK', 'AAY', 'ACA', 'CTL',
+    'ASP', 'VYR', 'SWQ', 'AAR', 'CSB', 'FFL', 'SIL', 'CYO', 'XSR',
+    '.N9', 'DL8', 'LN1', 'KAL', 'ABX', 'GTX', 'RUF', 'VTS', ' N9',
+    'AJI', 'KII', 'QFA', 'GEC', 'CSJ', 'PRG', 'VAL', 'CIT', 'JAL',
+    'DHR', 'LN7', 'STY', 'VTE', 'JTZ', 'APS', 'STV', 'XLJ', 'APH',
+    'RCH', 'DKT', 'AMX', 'LN8', 'EJM', 'DCM', 'EDV', 'CAC', 'KFS',
+    'ANA', 'MVP', 'GXA', 'ANO', 'WSW', 'LYM', 'XAD', 'RPA', 'GLT',
+    'SCM', 'COU', 'SLI', 'SHO', 'IJA', 'SCO', 'CFH', 'RKK', 'DPJ',
+    'ROU', 'TAI', 'GAJ', 'OTA', ' N5', '120', 'KLM', 'XAC', '696',
+    'TIV', 'CNS', 'TSC', 'SVL', 'DLH', 'KAY', '848', 'CFS', 'AFR',
+    'DRL', 'QXE', 'RDY', 'CMP', 'WIF', 'HWA', 'WSN', 'ATH', 'QQE',
+    'CGD', 'XAA', '674', 'EDG', 'YEL', 'BXX', 'BFF', 'JAV', 'XBD']
+
+"""
+
+""" common callsigns noticed:
+Nera: N? 
+Bizex, 
+Continental 
+Jet link: IGNORE
+lufthansa 
+us air
+
+
+
+
+what to do about airshuttel?
+"""

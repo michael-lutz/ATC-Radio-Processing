@@ -3,12 +3,15 @@ import numpy as np
 import re
 
 class CallsignMatcher():
-    def __init__(self, file_loc):
+    def __init__(self, file_loc, data_source='adsbx'):
         # Loading track data
         self.df = pd.read_csv(file_loc)
 
         # Cleaning Data
-        self.df['time_position'] = self.df['time_position'].apply(lambda x: int(x))
+        if data_source == "adsbx":
+            self.df['time'] = self.df['time'].apply(lambda x: int(x))
+        elif data_source == "opensky":
+            self.df['time_position'] = self.df['time_position'].apply(lambda x: int(x))
 
 
     # TODO: Find a well-integrated way to make the searches restricted to a moment in time.
@@ -18,16 +21,21 @@ class CallsignMatcher():
     # Then add filter when defining callsigns_unique
 
 
-    def find_match(self, callsign, threshold=None, t=-1, c = 1200):
+    def find_match(self, callsign, threshold=None, t=-1, c = 1200, data_source = 'adsbx'):
+        # Defining time_var_name
+        time_var_name = 'time'
+        if data_source == 'opensky': # Handles case when adsbx is not the option
+            time_var_name = 'time_position'
+
         # return NA if given NA
         if callsign == 'NA':
             return 'NA'
         
         # calculate levenshtein distance for string on all of the available callsigns
         if t == -1:
-            callsigns_unique = pd.Series(self.df['callsign'].unique())
+            callsigns_unique = pd.Series(self.df['flight'].unique())
         else:
-            callsigns_unique = pd.Series(self.df[(self.df['time_position'] < t + c) & (self.df['time_position'] > t - c)]['callsign'].unique())
+            callsigns_unique = pd.Series(self.df[(self.df[time_var_name] < t + c) & (self.df[time_var_name] > t - c)]['flight'].unique())
         
         l_distances = callsigns_unique.apply(lambda x: self._iterative_levenshtein(callsign, x)).values
 
@@ -86,4 +94,7 @@ class CallsignMatcher():
                 dist[row][col] = min(dist[row-1][col] + 1,      # deletion
                                     dist[row][col-1] + 1,      # insertion
                                     dist[row-1][col-1] + cost) # substitution
-        return dist[row][col]
+        try:
+            return dist[row][col]
+        except:
+            return 99999
